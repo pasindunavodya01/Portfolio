@@ -60,7 +60,7 @@ function Nav() {
           href={`mailto:${data.personal.email}`}
           className="text-xs font-mono px-4 py-2 border border-[#c8ff00]/40 text-[#c8ff00] hover:bg-[#c8ff00] hover:text-black transition-all duration-200 rounded-sm"
         >
-          Hire Me
+          Contact Me
         </a>
       </div>
     </motion.nav>
