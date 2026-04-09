@@ -9,37 +9,17 @@
     "social": {
       "github": "https://github.com/pasindunavodya01",
       "linkedin": "https://linkedin.com/in/pasindunavodya",
-      "email": "pasinavod@gmail.com"
+      "email": "mailto:pasinavod@gmail.com"
     }
   },
 
   "about": "I'm a Computer Science undergraduate and fullstack developer focused on building real-world applications that solve practical problems. I work mainly with the MERN stack and React Native, and I enjoy building scalable systems with real-time features, API integrations, and clean user experiences. I have hands-on experience through multiple full-stack projects and an internship where I developed a Student Management System. I'm currently improving my backend and system design skills while exploring enterprise technologies like .NET, with the goal of becoming a highly skilled software engineer.",
 
   "skills": {
-    "Frontend": [
-      "React",
-      "Tailwind CSS",
-      "JavaScript",
-      "HTML",
-      "CSS"
-    ],
-    "Backend": [
-      "Node.js",
-      "Express",
-      "PHP",
-      "Laravel",
-      "C#",
-      "REST APIs"
-    ],
-    "Mobile": [
-      "React Native",
-      "Flutter"
-    ],
-    "Database": [
-      "MongoDB",
-      "MySQL",
-      "Firebase"
-    ],
+    "Frontend": ["React", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
+    "Backend": ["Node.js", "Express", "PHP", "Laravel", "C#", "REST APIs"],
+    "Mobile": ["React Native", "Flutter"],
+    "Database": ["MongoDB", "MySQL", "Firebase"],
     "Tools & DevOps": [
       "Git",
       "GitHub",
@@ -68,7 +48,16 @@
       "title": "E-Transport System (Web + Mobile)",
       "description": "A real-time transport system with live GPS tracking for office and school transportation.",
       "longDescription": "Built a full-stack transport management system with real-time vehicle tracking using GPS and Socket.io. Includes driver and passenger roles, trip management, seat allocation, payment handling, and absence tracking. Passengers can view live vehicle location on maps and request available seats dynamically.",
-      "tech": ["React", "React Native", "Node.js", "Express", "MongoDB", "Firebase", "Socket.io", "OpenStreetMap"],
+      "tech": [
+        "React",
+        "React Native",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Firebase",
+        "Socket.io",
+        "OpenStreetMap"
+      ],
       "github": "https://github.com/pasindunavodya01",
       "live": null,
       "image": "https://plus.unsplash.com/premium_photo-1661963542752-9a8a1d72fb28?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -79,7 +68,16 @@
       "title": "Car-Pooling Platform (Web + Mobile)",
       "description": "A community-based ride-sharing platform with real-time tracking and trip collaboration.",
       "longDescription": "Developed a ride-sharing system where users can create communities, plan trips, and join rides. Includes real-time driver tracking, in-trip chat system, and collaboration features. Built using MERN stack with Socket.io and map integration.",
-      "tech": ["React", "React Native", "Node.js", "Express", "MongoDB", "Firebase", "Socket.io", "OpenStreetMap"],
+      "tech": [
+        "React",
+        "React Native",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Firebase",
+        "Socket.io",
+        "OpenStreetMap"
+      ],
       "github": "https://github.com/pasindunavodya01",
       "live": null,
       "image": "https://images.unsplash.com/photo-1493238792000-8113da705763?w=600&q=80",
@@ -101,7 +99,14 @@
       "title": "Gym Member Management System",
       "description": "A full-stack system for managing gym members, attendance, and payments.",
       "longDescription": "Developed a system with QR-based check-in and check-out, BMI tracking, payment management, and WhatsApp-based notifications. Built to solve real-world gym operations efficiently.",
-      "tech": ["React", "Node.js", "Express", "MongoDB", "Firebase", "Cloudinary"],
+      "tech": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Firebase",
+        "Cloudinary"
+      ],
       "github": "https://github.com/pasindunavodya01",
       "live": null,
       "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80",
@@ -112,7 +117,14 @@
       "title": "Siwmansala (Ongoing)",
       "description": "A collaboration platform for musicians and creatives.",
       "longDescription": "Building a platform where singers, songwriters, and creators can collaborate on projects. Users can create projects, invite collaborators based on skills, and request to join projects. Focused on building a scalable and collaborative system.",
-      "tech": ["React", "Node.js", "Express", "MongoDB", "Firebase", "Cloudinary"],
+      "tech": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Firebase",
+        "Cloudinary"
+      ],
       "github": "https://github.com/pasindunavodya01",
       "live": null,
       "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=600&q=80",
@@ -140,7 +152,7 @@
       "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=600&q=80",
       "featured": false
     },
-      {
+    {
       "id": 8,
       "title": "BookLoop",
       "description": "A collaborative book-sharing platform with messaging and notifications.",
@@ -151,7 +163,7 @@
       "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&q=80",
       "featured": true
     },
-     {
+    {
       "id": 3,
       "title": "Student Management System (ITDLH)",
       "description": "A full-featured system for managing students, attendance, marks, and payments.",
