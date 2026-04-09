@@ -73,11 +73,11 @@ function Hero() {
   return (
     <section className="min-h-screen flex items-center relative overflow-hidden px-6">
       {/* background grid */}
-      <div className="absolute inset-0 bg-[linear-gradient(rgba(200,255,0,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(200,255,0,0.03)_1px,transparent_1px)] bg-[size:60px_60px]" />
+      <div className="absolute inset-0 pointer-events-none bg-[linear-gradient(rgba(200,255,0,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(200,255,0,0.03)_1px,transparent_1px)] bg-[size:60px_60px]" />
       {/* glow */}
       <div className="absolute top-1/3 left-1/4 w-96 h-96 bg-[#c8ff00]/5 rounded-full blur-3xl pointer-events-none" />
 
-      <div className="max-w-6xl mx-auto w-full pt-24 pb-16">
+      <div className="relative z-10 max-w-6xl mx-auto w-full pt-24 pb-16">
         <motion.p
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
@@ -135,7 +135,7 @@ function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
-          className="flex gap-6 mt-12"
+          className="relative z-10 flex gap-6 mt-12"
         >
           {Object.entries(personal.social).map(([platform, url]) => (
             <a
