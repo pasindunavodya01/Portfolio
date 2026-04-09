@@ -1,0 +1,174 @@
+{
+  "personal": {
+    "name": "Pasindu Navodya",
+    "title": "Fullstack Developer (MERN) & Mobile App Developer",
+    "tagline": "I build real-world systems — from real-time web apps to scalable mobile platforms.",
+    "email": "pasindunavodya01@gmail.com",
+    "location": "Negombo, Sri Lanka",
+    "avatar": "https://avatars.githubusercontent.com/u/9919",
+    "social": {
+      "github": "https://github.com/pasindunavodya01",
+      "linkedin": "https://linkedin.com/in/pasindunavodya",
+      "email": "pasinavod@gmail.com"
+    }
+  },
+
+  "about": "I'm a Computer Science undergraduate and fullstack developer focused on building real-world applications that solve practical problems. I work mainly with the MERN stack and React Native, and I enjoy building scalable systems with real-time features, API integrations, and clean user experiences. I have hands-on experience through multiple full-stack projects and an internship where I developed a Student Management System. I'm currently improving my backend and system design skills while exploring enterprise technologies like .NET, with the goal of becoming a highly skilled software engineer.",
+
+  "skills": {
+    "Frontend": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "Backend": [
+      "Node.js",
+      "Express",
+      "PHP",
+      "Laravel",
+      "C#",
+      "REST APIs"
+    ],
+    "Mobile": [
+      "React Native",
+      "Flutter"
+    ],
+    "Database": [
+      "MongoDB",
+      "MySQL",
+      "Firebase"
+    ],
+    "Tools & DevOps": [
+      "Git",
+      "GitHub",
+      "Vercel",
+      "Cloudinary",
+      "Postman",
+      "Socket.io"
+    ]
+  },
+
+  "experience": [
+    {
+      "id": 1,
+      "company": "ITDLH - Negombo",
+      "role": "Trainee Development Officer - Computing",
+      "period": "August 2025 — February 2026",
+      "location": "Negombo, Sri Lanka",
+      "description": "Worked on developing a Student Management System under mentorship, handling real-world requirements such as student registration, attendance tracking, and performance management. Gained hands-on experience in full-stack development, debugging, and collaborative workflows.",
+      "tech": ["React", "Node.js", "MySQL", "Firebase"]
+    }
+  ],
+
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Transport System (Web + Mobile)",
+      "description": "A real-time transport system with live GPS tracking for office and school transportation.",
+      "longDescription": "Built a full-stack transport management system with real-time vehicle tracking using GPS and Socket.io. Includes driver and passenger roles, trip management, seat allocation, payment handling, and absence tracking. Passengers can view live vehicle location on maps and request available seats dynamically.",
+      "tech": ["React", "React Native", "Node.js", "Express", "MongoDB", "Firebase", "Socket.io", "OpenStreetMap"],
+      "github": "https://github.com/pasindunavodya01",
+      "live": null,
+      "image": "https://plus.unsplash.com/premium_photo-1661963542752-9a8a1d72fb28?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Car-Pooling Platform (Web + Mobile)",
+      "description": "A community-based ride-sharing platform with real-time tracking and trip collaboration.",
+      "longDescription": "Developed a ride-sharing system where users can create communities, plan trips, and join rides. Includes real-time driver tracking, in-trip chat system, and collaboration features. Built using MERN stack with Socket.io and map integration.",
+      "tech": ["React", "React Native", "Node.js", "Express", "MongoDB", "Firebase", "Socket.io", "OpenStreetMap"],
+      "github": "https://github.com/pasindunavodya01",
+      "live": null,
+      "image": "https://images.unsplash.com/photo-1493238792000-8113da705763?w=600&q=80",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "WatchScape – Social Movie App",
+      "description": "A full-stack social platform for tracking movies and sharing user activity.",
+      "longDescription": "Built a social movie platform where users can track watched movies, manage watchlists, and interact through posts, likes, comments, and follows. Integrated IMDB API for movie data and implemented automatic post generation with RESTful backend services.",
+      "tech": ["React", "Node.js", "Express", "MongoDB", "IMDB API"],
+      "github": "https://github.com/pasindunavodya01/watchscape_server",
+      "live": "https://watchscape.vercel.app",
+      "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=600&q=80",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "Gym Member Management System",
+      "description": "A full-stack system for managing gym members, attendance, and payments.",
+      "longDescription": "Developed a system with QR-based check-in and check-out, BMI tracking, payment management, and WhatsApp-based notifications. Built to solve real-world gym operations efficiently.",
+      "tech": ["React", "Node.js", "Express", "MongoDB", "Firebase", "Cloudinary"],
+      "github": "https://github.com/pasindunavodya01",
+      "live": null,
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "Siwmansala (Ongoing)",
+      "description": "A collaboration platform for musicians and creatives.",
+      "longDescription": "Building a platform where singers, songwriters, and creators can collaborate on projects. Users can create projects, invite collaborators based on skills, and request to join projects. Focused on building a scalable and collaborative system.",
+      "tech": ["React", "Node.js", "Express", "MongoDB", "Firebase", "Cloudinary"],
+      "github": "https://github.com/pasindunavodya01",
+      "live": null,
+      "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=600&q=80",
+      "featured": false
+    },
+    {
+      "id": 6,
+      "title": "LuxuryCarHub (Web + Mobile)",
+      "description": "A full car dealership platform with web and mobile integration.",
+      "longDescription": "Developed a system where dealers can manage vehicle listings and users can browse and connect with dealers. Includes REST API integration between Laravel backend and mobile application.",
+      "tech": ["Laravel", "MongoDB", "Flutter", "REST API"],
+      "github": "https://github.com/pasindunavodya01",
+      "live": null,
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&q=80",
+      "featured": false
+    },
+    {
+      "id": 7,
+      "title": "Cab Management System (C#)",
+      "description": "A console-based cab booking system using OOP and SQL.",
+      "longDescription": "Developed using C# with Object-Oriented Programming concepts to manage drivers, bookings, and ride tracking. Integrated SQL database for storing system data.",
+      "tech": ["C#", "SQL"],
+      "github": "https://github.com/pasindunavodya01",
+      "live": null,
+      "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=600&q=80",
+      "featured": false
+    },
+      {
+      "id": 8,
+      "title": "BookLoop",
+      "description": "A collaborative book-sharing platform with messaging and notifications.",
+      "longDescription": "Developed as a group project using PHP, MySQL, Tailwind CSS, and JavaScript. Includes book listings, real-time messaging, event management, and automated email notifications. Built using Agile methodology.",
+      "tech": ["PHP", "MySQL", "Tailwind CSS", "JavaScript"],
+      "github": "https://github.com/pasindunavodya01/BookLoop",
+      "live": "http://bookloop.iceiy.com/",
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&q=80",
+      "featured": true
+    },
+     {
+      "id": 3,
+      "title": "Student Management System (ITDLH)",
+      "description": "A full-featured system for managing students, attendance, marks, and payments.",
+      "longDescription": "Developed during my internship at ITDLH under mentorship. Built using React, Node.js, MySQL, and Firebase. Includes student registration, attendance tracking with 80% eligibility rule, marks management, and course fee tracking. Designed to handle real institutional requirements.",
+      "tech": ["React", "Node.js", "MySQL", "Firebase"],
+      "github": "https://github.com/pasindunavodya01",
+      "live": null,
+      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&q=80",
+      "featured": true
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "BSc (Hons) Computer Science",
+      "school": "Staffordshire University (APIIT Campus)",
+      "period": "2023 — Present"
+    }
+  ]
+}
