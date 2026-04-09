@@ -1,12 +1,73 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Basic -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+
+    <!-- Title -->
+    <title>Pasindu Navodya | Fullstack Developer</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Pasindu Navodya - Fullstack Developer & Mobile App Builder. I build real-world web and mobile applications." />
+    <meta name="keywords" content="Pasindu, Fullstack Developer, React, Laravel, Flutter, Portfolio" />
+    <meta name="author" content="Pasindu Navodya" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/Screenshot 2026-04-09 211702.png" />
+
+    <!-- Open Graph (for sharing) -->
+    <meta property="og:title" content="Pasindu Navodya Portfolio" />
+    <meta property="og:description" content="Check out my projects, skills, and experience." />
+    <meta property="og:image" content="/preview.png" />
+    <meta property="og:type" content="website" />
+
+    <!-- Theme color -->
+    <meta name="theme-color" content="#000000" />
+
+    <!-- Fonts (optional - modern dev style) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        background: #0a0a0a;
+        color: #ffffff;
+      }
+
+      /* Simple loading screen */
+      #loader {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #0a0a0a;
+        color: #c8ff00;
+        font-family: monospace;
+        letter-spacing: 2px;
+        z-index: 9999;
+      }
+    </style>
   </head>
+
   <body>
+    <!-- Loader -->
+    <div id="loader">LOADING...</div>
+
+    <!-- React Root -->
     <div id="root"></div>
+
+    <script>
+      // remove loader when app loads
+      window.addEventListener("load", () => {
+        const loader = document.getElementById("loader");
+        if (loader) loader.style.display = "none";
+      });
+    </script>
+
+    <!-- React App -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

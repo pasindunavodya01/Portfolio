@@ -295,9 +295,8 @@ function Experience() {
 function Projects() {
   const { projects } = data;
   const [showAll, setShowAll] = useState(false);
-  const featured = projects.filter((p) => p.featured);
-  const rest = projects.filter((p) => !p.featured);
-  const visible = showAll ? projects : featured;
+  const visible = showAll ? projects : projects.slice(0, 4);
+const rest = projects.slice(4);   
 
   return (
     <section id="projects" className="py-28 px-6">
