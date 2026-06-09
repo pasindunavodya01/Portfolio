@@ -17,9 +17,9 @@
 
   "skills": {
     "Frontend": ["React", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
-    "Backend": ["Node.js", "Express", "PHP", "Laravel", "C#", "REST APIs"],
+    "Backend": ["Python","Node.js", "Express", "PHP", "Laravel", "C#", "REST APIs"],
     "Mobile": ["React Native", "Flutter"],
-    "Database": ["MongoDB", "MySQL", "Firebase"],
+    "Database": ["MongoDB", "MySQL", "Firebase", "Supabase"],
     "Tools & DevOps": [
       "Git",
       "GitHub",
