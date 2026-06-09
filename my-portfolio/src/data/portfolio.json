@@ -96,6 +96,42 @@
       "featured": true
     },
     {
+  "id": 1,
+  "title": "ArtNcraft – E-Commerce Platform",
+  "description": "A full-stack e-commerce platform for art and craft products with multi-role support.",
+  "longDescription": "Built a full-stack marketplace platform for art and craft products with user, seller, and admin roles. Implemented product management, cart, orders, auctions, and reviews. Integrated Stripe for secure payments, Cloudinary for image storage, and Firebase Authentication for secure access.",
+  "tech": ["React", "Node.js", "Express", "MongoDB", "Firebase", "Stripe", "Cloudinary"],
+  "github": "https://github.com/pasindunavodya01/ArtnCraft",
+  "live": "",
+  "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80",
+  "featured": true
+},
+   {
+  "id": 3,
+  "title": "LifeOS – Personal Productivity System",
+  "description": "A centralized system for managing habits, goals, and daily productivity.",
+  "longDescription": "Built a personal productivity platform to manage habits, goals, and daily planning in one unified dashboard. Includes habit tracking, structured goal management, and progress visualization to improve consistency and reduce overthinking.",
+  "tech": ["React", "Node.js", "Supabase", "Firebase", "Tailwind CSS"],
+  "github": "https://github.com/pasindunavodya01/HabitTracker-",
+  "live": "https://habit-tracker-sigma-vert.vercel.app/",
+  "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=600&q=80",
+  "featured": true
+}, 
+    
+    
+    
+    {
+  "id": 2,
+  "title": "SetFlow – Task & Schedule System",
+  "description": "A productivity system for managing tasks through structured workflows.",
+  "longDescription": "Developed a task and schedule management system focused on flow-based workflows and structured daily planning. Designed to reduce decision fatigue by organizing tasks into clear execution steps with a simple and intuitive UI.",
+  "tech": ["React", "Node.js", "Supabase", "Firebase", "Tailwind CSS"],
+  "github": "https://github.com/pasindunavodya01/setflaw",
+  "live": "https://setflow-psi.vercel.app/",
+  "image": "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=600&q=80",
+  "featured": true
+},
+    {
       "id": 4,
       "title": "Gym Member Management System",
       "description": "A full-stack system for managing gym members, attendance, and payments.",
