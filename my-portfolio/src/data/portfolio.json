@@ -85,6 +85,17 @@
       "featured": true
     },
     {
+  "id": 4,
+  "title": "BreathFlow - Breathing Guide App with Ambient sounds",
+  "description": "A focus and wellness app that guides users through breathing exercises during deep work sessions.",
+  "longDescription": "Built a breathing guidance application to help users maintain proper breathing during focused activities such as coding and studying. Implemented multiple breathing techniques including Box Breathing, 3-7-8 Breathing, Relaxing Breathing, Coherent Breathing, and Custom Mode. Added Picture-in-Picture support, ambient sounds, session timers, audio cues, and Screen Wake Lock integration to provide an uninterrupted mindfulness experience.",
+  "tech": ["React", "Tailwind CSS", "React Hooks", "Picture-in-Picture API", "Screen Wake Lock API"],
+  "github": "https://github.com/pasindunavodya01/BreathFlow",
+  "live": "https://breath-flow-sigma.vercel.app/",
+  "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&q=80",
+  "featured": true
+},
+    {
       "id": 3,
       "title": "WatchScape – Social Movie App",
       "description": "A full-stack social platform for tracking movies and sharing user activity.",
